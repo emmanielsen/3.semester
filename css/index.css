@@ -1,0 +1,19 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+
+.logo {
+    width:75%;
+    margin-left:15%;
+    margin-top: 20%;
+    position: relative;
+}
+
+.mySlides {
+    display:none;
+    position: absolute;
+    width: 100%;
+}
