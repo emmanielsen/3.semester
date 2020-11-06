@@ -295,6 +295,8 @@ h1 {
 
   #menu-button{
     width: 200px;
+    margin-top: 80px;
+    margin-left: 80px;
   }
 
   #line-1,#line-2,#line-3{
@@ -305,92 +307,49 @@ h1 {
   #hjem {
     height: 5000px; 
   }
+  
+  .stortlogo {
+    width:60%;
+    margin-left:20%;
+    margin-top: 15%;
+  }
+
 /************** menu bokse desktop ********/ 
   #box {
     height:5000px;
   }
 
-     /*boksene*/
-.slides {
-
-}
-
     /* scroll baren */ 
 .slides::-webkit-scrollbar {
-  width: 10px;
-  height: 30px;
+  width: 5px;
+  height: 40px;
 }
-
-.slides::-webkit-scrollbar-thumb {
-  background: #cebbab;
-  border-radius: 10px;
-}
-
-.slides::-webkit-scrollbar-track {
-  background: transparent;
-}
-
 
     /* boksenes design */
 .slides > div {
-  width: 1200px;
-  height: 2400px;
-  border-radius: 10px;
+  width: 1500px;
+  height: 3000px;
+  border-radius: 50px;
 }
 
 .boksbilleder {
-  border-radius: 10px;
+  border-radius: 50px;
   
 }
 
-.mad1 {
-  font-size: 100px;
-  margin-bottom: 170%;
-}
-
-.mad2 {
-  font-size: 100px;
-  margin-bottom: 170%;
-}
-
-.mad3 {
-  font-size: 100px;
-  margin-bottom: 170%;
-}
-
-.mad4 {
-  font-size: 100px;
-  margin-bottom: 170%;
-}
-
-.mad5 {
-  font-size: 100px;
-  margin-bottom: 170%;
+.mad1, .mad2, .mad3, .mad4, .mad5 {
+  font-size: 250px;
 }
 
 .vælg {
-  width: 80%; 
-  height: 10%;
-
   font-size: 100px;
 }
 
-.vælg:hover {
-  background-color: #cebbab;
-  color: #e6ecec;
-}
-
 h1 {
+  font-size: 300px;
+  margin-top: -300px;
+  margin-bottom: 200px;
 
-  color: #cebbab;
-  font-size: 20px;
-  margin-right: 5%;
-  margin-left: 5%;
-  text-align: center;
-  position: relative;
-  margin-top: -170px;
-  margin-bottom: 60px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 
