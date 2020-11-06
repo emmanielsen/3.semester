@@ -102,7 +102,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 
 
 #box{ 
-  height: 4000px;
+  height: 800px;
 }
 
     /*boksene*/
@@ -154,9 +154,9 @@ transform: translate(0px, -12px) rotate(-45deg);
 
 .mad1 {
   position: absolute;
-  font-size: 500%;
+  font-size: 350%;
   align-items: center;
-  margin-bottom: 150%;
+  margin-bottom: 170%;
   color: #e6ecec;
   font-family:'Playball', cursive;
 }
@@ -165,25 +165,34 @@ transform: translate(0px, -12px) rotate(-45deg);
   position: absolute;
   font-size: 350%;
   align-items: center;
-  margin-bottom: 150%;
+  margin-bottom: 170%;
   color: #e6ecec;
   font-family:'Playball', cursive;
 }
 
 .mad3 {
   position: absolute;
-  font-size: 450%;
+  font-size: 350%;
   align-items: center;
-  margin-bottom: 150%;
+  margin-bottom: 170%;
   color: #e6ecec;
   font-family:'Playball', cursive;
 }
 
 .mad4 {
   position: absolute;
-  font-size: 200%;
+  font-size: 350%;
   align-items: center;
   margin-bottom: 150%;
+  color: #443b2b;
+  font-family:'Playball', cursive;
+}
+
+.mad5 {
+  position: absolute;
+  font-size: 350%;
+  align-items: center;
+  margin-bottom: 170%;
   color: #e6ecec;
   font-family:'Playball', cursive;
 }
@@ -221,43 +230,61 @@ h1 {
 
 
 
-
-
 #citater{ 
   height: 900px;
 }
 
 /* Citater og images på forsiden */
 
-.image {
-	margin-top: 80%;
-  width:40%;
-  margin-left: 5%;
-}
-
-.citat1 {
-  margin-top: 80%;
-  float: right;
-  font-size: 15px;
-  width: 160px;
+.citat-billeder {
+  width: 90%;
   margin-right: 5%;
+  margin-left: 5%;
+  position: relative;
+  margin-top: -25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.image2 {
-  margin-top: 10%;
-  width:40%;
-  margin-left: 5%;
-  float: right;
+.citat-tekst {
+  position: relative;
+  font-size: 25px;
+  align-items: center;
+  background-color: #b88b9e;
+  color: black;
+  margin-right:5%;
+  margin-left: 5%; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -100px;
+}
+
+.citat-billeder2 {
+  width: 90%;
   margin-right: 5%;
-}
-
-.citat2 {
-  margin-top: 10%;
-  font-size: 15px;
-  width: 160px;
   margin-left: 5%;
+  position: relative;
+  margin-top: -25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
+.citat-tekst2 {
+  position: relative;
+  font-size: 25px;
+  align-items: center;
+  background-color: #b88b9e;
+  color: black;
+  margin-right:5%;
+  margin-left: 5%; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+}
 
 
 /* 
@@ -265,15 +292,6 @@ h1 {
 */
 
 @media only screen and (min-width: 768px) {
-  .citat1 {
-    font-size: 200px;
-    width: 2500px;
-  }
-
-  .citat2 {
-    font-size: 200px;
-    width: 2500px;
-  }
 
   #menu-button{
     width: 200px;
@@ -283,5 +301,148 @@ h1 {
     height: 20px;
     margin: 20px auto;
   }
+
+  #hjem {
+    height: 5000px; 
+  }
+/************** menu bokse desktop ********/ 
+  #box {
+    height:5000px;
+  }
+
+     /*boksene*/
+.slides {
+
+}
+
+    /* scroll baren */ 
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 30px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background: #cebbab;
+  border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+    /* boksenes design */
+.slides > div {
+  width: 1200px;
+  height: 2400px;
+  border-radius: 10px;
+}
+
+.boksbilleder {
+  border-radius: 10px;
   
+}
+
+.mad1 {
+  font-size: 100px;
+  margin-bottom: 170%;
+}
+
+.mad2 {
+  font-size: 100px;
+  margin-bottom: 170%;
+}
+
+.mad3 {
+  font-size: 100px;
+  margin-bottom: 170%;
+}
+
+.mad4 {
+  font-size: 100px;
+  margin-bottom: 170%;
+}
+
+.mad5 {
+  font-size: 100px;
+  margin-bottom: 170%;
+}
+
+.vælg {
+  width: 80%; 
+  height: 10%;
+
+  font-size: 100px;
+}
+
+.vælg:hover {
+  background-color: #cebbab;
+  color: #e6ecec;
+}
+
+h1 {
+
+  color: #cebbab;
+  font-size: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  position: relative;
+  margin-top: -170px;
+  margin-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*********** citater Desktop *********/
+  #citater {
+    height:5000px;
+  }
+  .citat-billeder {
+    width: 40%;
+    float: left; 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right:-130px;
+    position: absolute;
+  }
+  
+  .citat-tekst {
+    font-size: 100px;
+    float: right; 
+    width: 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 100px;
+    line-height: 150px;
+    height: 1720px;
+    margin-top: -19px;
+    padding-top: 430px;
+  }
+  
+  .citat-billeder2 {
+    position: absolute;
+    width: 40%;
+    float: left; 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: 2000px;
+  }
+  
+  .citat-tekst2 {
+    font-size: 100px;
+    float: right; 
+    width: 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 100px;
+    line-height: 150px;
+    margin-top: 200px;
+    height: 1537px;
+    padding-top: 192.12px;
+  }
+  
+
+
 }
