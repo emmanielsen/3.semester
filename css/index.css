@@ -1,11 +1,13 @@
 *{
     margin-top: 0px;
     margin-left: 0px;
+    margin-right: 0px;
     box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth; 
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -120,7 +122,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 }
 
 .slides::-webkit-scrollbar-thumb {
-  background: black;
+  background: #cebbab;
   border-radius: 10px;
 }
 
@@ -142,13 +144,80 @@ transform: translate(0px, -12px) rotate(-45deg);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 100px;
 }
 
+.boksbilleder {
+  width: 100%;
+  border-radius: 10px;
+  
+}
 
+.mad1 {
+  position: absolute;
+  font-size: 500%;
+  align-items: center;
+  margin-bottom: 150%;
+  color: #e6ecec;
+  font-family:'Playball', cursive;
+}
 
+.mad2 {
+  position: absolute;
+  font-size: 350%;
+  align-items: center;
+  margin-bottom: 150%;
+  color: #e6ecec;
+  font-family:'Playball', cursive;
+}
 
+.mad3 {
+  position: absolute;
+  font-size: 450%;
+  align-items: center;
+  margin-bottom: 150%;
+  color: #e6ecec;
+  font-family:'Playball', cursive;
+}
 
+.mad4 {
+  position: absolute;
+  font-size: 200%;
+  align-items: center;
+  margin-bottom: 150%;
+  color: #e6ecec;
+  font-family:'Playball', cursive;
+}
+
+.vælg {
+  width: 80%; 
+  height: 10%;
+  position: absolute;
+  margin-top: 140%;
+  font-size: 25px;
+  border-radius: 20px;
+  background-color: rgb(206,187,171,0.8);
+  color: #e6ecec; 
+  
+  border: none;
+}
+
+.vælg:hover {
+  background-color: #cebbab;
+  color: #e6ecec;
+}
+
+h1 {
+
+  color: #cebbab;
+  font-size: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  position: relative;
+  margin-top: -170px;
+  margin-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 
