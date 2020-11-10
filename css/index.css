@@ -158,7 +158,6 @@ transform: translate(0px, -12px) rotate(-45deg);
   align-items: center;
   margin-bottom: 170%;
   color: #e6ecec;
-  font-family:'Playball', cursive;
 }
 
 .mad2 {
@@ -167,7 +166,6 @@ transform: translate(0px, -12px) rotate(-45deg);
   align-items: center;
   margin-bottom: 170%;
   color: #e6ecec;
-  font-family:'Playball', cursive;
 }
 
 .mad3 {
@@ -176,7 +174,6 @@ transform: translate(0px, -12px) rotate(-45deg);
   align-items: center;
   margin-bottom: 170%;
   color: #e6ecec;
-  font-family:'Playball', cursive;
 }
 
 .mad4 {
@@ -184,8 +181,7 @@ transform: translate(0px, -12px) rotate(-45deg);
   font-size: 350%;
   align-items: center;
   margin-bottom: 150%;
-  color: #443b2b;
-  font-family:'Playball', cursive;
+  color: #e6ecec;
 }
 
 .mad5 {
@@ -194,7 +190,6 @@ transform: translate(0px, -12px) rotate(-45deg);
   align-items: center;
   margin-bottom: 170%;
   color: #e6ecec;
-  font-family:'Playball', cursive;
 }
 
 .vælg {
@@ -327,8 +322,8 @@ h1 {
 
     /* boksenes design */
 .slides > div {
-  width: 1500px;
-  height: 3000px;
+  width: 1200px;
+  height: 2400px;
   border-radius: 50px;
 }
 
@@ -338,7 +333,7 @@ h1 {
 }
 
 .mad1, .mad2, .mad3, .mad4, .mad5 {
-  font-size: 250px;
+  font-size: 180px;
 }
 
 .vælg {
