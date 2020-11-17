@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/index.css" type="text/css">
+        <link href="style.scss" rel="stylesheet/scss" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playball&display=swap" rel="stylesheet">
         <script src="index.js" defer></script>
      
@@ -26,20 +27,21 @@
     <img class="stortlogo" src="img/whitelogo.png" alt="taffelvognens logo">
 
 <!-- burger menu-->
-    <div id="menu-button">
-        <div id="line-1"></div>
-        <div id="line-2"></div>
-        <div id="line-3"></div>
+    <div class="navbar">
+      <div class="menu icon-menu"></div>
+      <div class="settings icon-search"></div> 
     </div>
-        <div id="menu">
-            <ul>
-                <li>Home</li>
-                <li>Service</li>
-                <li>Blog</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </div>
+    <nav role='navigation'>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="search">
+      <h1>Search:</h1><input type="search" />
+    </div>
 
 </section>
 
