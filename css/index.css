@@ -60,7 +60,8 @@ section {
 #cp{
   position: absolute;
   z-index: 3;
-	top: 50px;
+  top: 50px;
+  right: -260px;
 	width: 260px;
 	height: 350px;
   background: rgb(198,185,172, 1);
