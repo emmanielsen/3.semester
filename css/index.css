@@ -38,65 +38,52 @@ section {
 
 /*********************************  BUGER MENU - tre strejer til kryds ********************/
 
-#menu-button{
-  width: 50px;
-  border-radius: 5px;
-  position: relative;
-  cursor: pointer;
-  transition: all linear .3s;
-  padding: 4px;
-  z-index: 1;
-  margin-top: 10px;
-}
-
-#menu-button.active{
-  background: #3d3d3d;
-}
-#line-1,#line-2,#line-3{
-  width: 90%;
-  background: #fff;
-  height: 5px;
-  margin: 6px auto;
-  border-radius: 2px;
-  transition: all linear .3s;
-}
-
-#line-1.active{
--webkit-transform: translate(0px,12px) rotate(45deg);
-transform: translate(0px,12px) rotate(45deg);
-}
-
-#line-2.active{
-opacity: 0;
-}
-
-#line-3.active{
--webkit-transform: translate(0px, -12px) rotate(-45deg);
-transform: translate(0px, -12px) rotate(-45deg);
-}
-
-#menu{
-  background: #3d3d3d;
-  width: 150px;
-  padding: 10px;
-  padding-top: 30px;
-  color: #fff;
-  font-family: arial;
-  font-size: 1.5rem;
-  display: none;
+#cpBtn{
   position: absolute;
-  top: 8px;
-  border-radius: 5px;
+  margin-top: 20px;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	padding: 2px 5px;
+	cursor: pointer;
+	transition: border 0.3s linear 0s;
 }
 
-#menu ul{
-  list-style: none;
+#cpBtn > div{
+	width: 35px;
+	height: 5px;
+	margin: 3px 0px;
+  border-radius: 4px;
+  background-color: #cebbab;
+	transition: 0.3s linear 0s;
+}
+#cp{
+  position: absolute;
+  z-index: 3;
+	top: 50px;
+	width: 260px;
+	height: 350px;
+  background: rgb(198,185,172, 1);
+  border-radius: 8%;
+  opacity: 0;
+	transition: opacity 0.3s linear 0s, right 0s linear 0s;
+	cursor: pointer;
 }
 
-#menu ul li{
-  margin: 8px 0;
+
+.navlist {
+  list-style-type: none;
+  margin-top: 17%;
+  text-align: center;
+  margin-right: 12%;
 }
 
+.navlist li a {
+  font-size: 30px;
+  color:#e6ecec;
+  text-decoration: none;
+  
+}
 
 
 
@@ -107,6 +94,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 
     /*boksene*/
 .slides {
+  z-index: 1;
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -211,7 +199,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 }
 
 h1 {
-
+  z-index: 2;
   color: #cebbab;
   font-size: 20px;
   margin-right: 5%;
@@ -287,17 +275,6 @@ h1 {
 */
 
 @media only screen and (min-width: 768px) {
-
-  #menu-button{
-    width: 200px;
-    margin-top: 80px;
-    margin-left: 80px;
-  }
-
-  #line-1,#line-2,#line-3{
-    height: 20px;
-    margin: 20px auto;
-  }
 
   #hjem {
     height: 5000px; 
