@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/anden.css" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playball&display=swap" rel="stylesheet">
-     
+        <meta http-equiv="X-UA-Compitible" content="ieedge">
         <title> Taffelvognen</title>
     </head>
 <body>
@@ -63,8 +63,8 @@
                                 <?php
                                     if(strlen($value['detail']) >= 50){
                                         echo substr($value['detail'], 0, 50). "...";
-                                        echo "<p class='view_more'>View More</p>"                                
-                                    } else {
+                                        echo "<p class='view_more'>View More</p>";                                
+                                    } else{
                                         echo $value['detail'];
                                     }
                                 ?>
