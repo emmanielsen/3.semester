@@ -1,4 +1,3 @@
-console.log('emma');
 /* slideshow galleri */ 
 var myIndex = 0;
 carousel();
@@ -15,8 +14,7 @@ function carousel() {
   setTimeout(carousel, 3000); 
 }
 
-/* buger menu*/ 
-/* hvad betyder $*/ 
+/* buger menu*/
 
 
 function toggleCP(){
