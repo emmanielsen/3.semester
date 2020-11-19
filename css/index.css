@@ -61,7 +61,6 @@ section {
   position: absolute;
   z-index: 3;
   top: 50px;
-  right: -260px;
 	width: 260px;
 	height: 350px;
   background: rgb(198,185,172, 1);
@@ -194,6 +193,8 @@ section {
   color: #e6ecec; 
   border: none;
   text-decoration-line: none;
+  text-align: center;
+  padding-top: 5%;
 }
 
 .vælg:hover {
@@ -236,7 +237,7 @@ h1 {
   position: relative;
   font-size: 25px;
   align-items: center;
-  background-color: #b88b9e;
+  background-color: #e6ecec;
   color: black;
   margin-right:5%;
   margin-left: 5%; 
@@ -261,7 +262,7 @@ h1 {
   position: relative;
   font-size: 25px;
   align-items: center;
-  background-color: #b88b9e;
+  background-color: #e6ecec;
   color: black;
   margin-right:5%;
   margin-left: 5%; 
