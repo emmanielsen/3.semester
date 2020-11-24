@@ -6,21 +6,21 @@
 }
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
 }
 
 
 section {
-	width: 100%; 
-	height: 1000px; 
+	width: 100%;
+	height: 1000px;
   float: left;
   margin-top: -16px;
 }
 
 #hjem {
   height: 500px;
-  
+
 }
 
 .stortlogo {
@@ -40,8 +40,8 @@ section {
 
 #cpBtn{
   position: absolute;
-  margin-top: 20px;
-	right: 20px;
+  margin-top: 30px;
+	right: 30px;
 	width: 30px;
 	height: 30px;
 	padding: 2px 5px;
@@ -51,10 +51,10 @@ section {
 
 #cpBtn > div{
 	width: 35px;
-	height: 5px;
+	height: 4px;
 	margin: 3px 0px;
   border-radius: 4px;
-  background-color: #cebbab;
+  background-color: white;
 	transition: 0.3s linear 0s;
 }
 #cp{
@@ -82,13 +82,13 @@ section {
   font-size: 30px;
   color:#e6ecec;
   text-decoration: none;
-  
+
 }
 
 
 
 
-#box{ 
+#box{
   height: 800px;
 }
 
@@ -99,12 +99,12 @@ section {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  margin-left: 5%; 
+  margin-left: 5%;
   margin-right: 5%;
-  
+
 }
 
-    /* scroll baren */ 
+    /* scroll baren */
 .slides::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -139,7 +139,7 @@ section {
 .boksbilleder {
   width: 100%;
   border-radius: 10px;
-  
+
 }
 
 .mad1 {
@@ -183,14 +183,14 @@ section {
 }
 
 .vælg {
-  width: 80%; 
+  width: 80%;
   height: 10%;
   position: absolute;
   margin-top: 140%;
   font-size: 25px;
   border-radius: 20px;
   background-color: rgb(206,187,171,0.8);
-  color: #e6ecec; 
+  color: #e6ecec;
   border: none;
   text-decoration-line: none;
   text-align: center;
@@ -217,7 +217,7 @@ h1 {
 
 
 
-#citater{ 
+#citater{
   height: 1900px;
 }
 
@@ -240,7 +240,7 @@ h1 {
   background-color: #e6ecec;
   color: black;
   margin-right:5%;
-  margin-left: 5%; 
+  margin-left: 5%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 20px;
@@ -265,7 +265,7 @@ h1 {
   background-color: #e6ecec;
   color: black;
   margin-right:5%;
-  margin-left: 5%; 
+  margin-left: 5%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 20px;
@@ -274,28 +274,28 @@ h1 {
 }
 
 
-/* 
-  ##Device = Laptops, Desktop 
+/*
+  ##Device = Laptops, Desktop
 */
 
 @media only screen and (min-device-width: 376px) and (max-device-width: 480px) {
 
   #hjem {
-    height: 5000px; 
+    height: 5000px;
   }
-  
+
   .stortlogo {
     width:60%;
     margin-left:20%;
     margin-top: 15%;
   }
 
-/************** menu bokse desktop ********/ 
+/************** menu bokse desktop ********/
   #box {
     height:5000px;
   }
 
-    /* scroll baren */ 
+    /* scroll baren */
 .slides::-webkit-scrollbar {
   width: 5px;
   height: 40px;
@@ -310,7 +310,7 @@ h1 {
 
 .boksbilleder {
   border-radius: 50px;
-  
+
 }
 
 .mad1, .mad2, .mad3, .mad4, .mad5 {
@@ -336,16 +336,16 @@ h1 {
   }
   .citat-billeder {
     width: 40%;
-    float: left; 
+    float: left;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     margin-right:-130px;
     position: absolute;
   }
-  
+
   .citat-tekst {
     font-size: 100px;
-    float: right; 
+    float: right;
     width: 50%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -355,19 +355,19 @@ h1 {
     margin-top: -19px;
     padding-top: 430px;
   }
-  
+
   .citat-billeder2 {
     position: absolute;
     width: 40%;
-    float: left; 
+    float: left;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     margin-top: 2000px;
   }
-  
+
   .citat-tekst2 {
     font-size: 100px;
-    float: right; 
+    float: right;
     width: 50%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -377,7 +377,7 @@ h1 {
     height: 1537px;
     padding-top: 192.12px;
   }
-  
+
 
 
 }
