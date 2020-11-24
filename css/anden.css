@@ -8,7 +8,7 @@ html {
   height: 2000px;
   font-family: 'Montserrat', sans-serif;
 }
-/* booking system på index.php siden*/ 
+/* booking system på index.php siden*/
 .container {
   width: 50%;
   border: none;
@@ -23,7 +23,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* boksens baggrund */ 
+/* boksens baggrund */
 .container form {
   width: 130%;
   background:#cebbab;
@@ -45,7 +45,7 @@ h1 {
 }
 
 
-/* menu siden for HOTDOG */ 
+/* menu siden for HOTDOG */
 
 h1 {
   position: absolute;
@@ -72,7 +72,7 @@ h1 {
   background-color: #e6ecec;
   color: black;
   margin-right:5%;
-  margin-left: 5%; 
+  margin-left: 5%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 20px;
@@ -100,7 +100,7 @@ h1 {
   background-color: #e6ecec;
   color: black;
   margin-right:5%;
-  margin-left: 5%; 
+  margin-left: 5%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 20px;
@@ -116,12 +116,19 @@ h2 {
   position: absolute;
   font-size: 20px;
   color: black;
-  margin-left: 10%; 
+  margin-left: 10%;
   font-family: 'Montserrat', sans-serif;
   margin-top: 220%;
   z-index: 3;
 }
 
+.lenekontakt {
+  width:40%;
+  position: absolute;
+  margin-top: 150%;
+  z-index: 4;
+  margin-left: 30%;
+}
 
 
 .lene {
@@ -136,7 +143,7 @@ h2 {
   position: absolute;
   font-size: 20px;
   color: black;
-  margin-left: 35%; 
+  margin-left: 35%;
   font-family: 'Montserrat', sans-serif;
   margin-top: 238%;
   z-index: 5;
@@ -164,7 +171,7 @@ h2 {
   background-color: #cebbab;
   transition: 0.3s linear 0s;
   margin-left: 80%;
-  
+
 }
 
 /* drop down boksen*/
@@ -205,14 +212,14 @@ h2 {
 }
 
 .vælg {
-  width: 70%; 
+  width: 70%;
   height: 5%;
   position: absolute;
   margin-top:300%;
   font-size: 25px;
   border-radius: 20px;
   background-color: rgb(206,187,171,0.8);
-  color: #e6ecec; 
+  color: #e6ecec;
   border: none;
   text-decoration-line: none;
   text-align: center;
@@ -226,14 +233,14 @@ h2 {
 }
 
 .tilbage {
-  width: 30%; 
+  width: 30%;
   position: absolute;
   height: 4%;
   margin-top:25%;
   font-size: 20px;
   border-radius: 20px;
   background-color: #e6ecec;
-  color: rgb(0,0,0,0.4); 
+  color: rgb(0,0,0,0.4);
   border: none;
   text-decoration-line: none;
   text-align: center;
