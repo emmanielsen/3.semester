@@ -79,6 +79,41 @@ h1 {
   z-index: 2;
 }
 
+.citat-tekst-tak {
+  position: absolute;
+  font-size: 20px;
+  align-items: center;
+  background-color: #e6ecec;
+  color: black;
+  margin-right:5%;
+  margin-left: 5%;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 150px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 40%;
+  z-index: 1;
+  height: 320px;
+}
+
+.tak {
+  position: absolute;
+  font-size: 280%;
+  color: black ;
+  margin-top: 48%;
+  margin-left: 35%;
+  z-index: 2;
+}
+
+.underskrift {
+  font-family: 'Zeyada', cursive;
+  font-size: 40px;
+  margin-top: 150%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 25%;
+}
+
 .citat-tekst-flaeskesteg {
   position: absolute;
   font-size: 20px;
@@ -124,6 +159,7 @@ h1 {
   z-index: 1;
   height: 700px;
 }
+
 
 /* Boksen/teksten til kontakt-siden */
 .citat-tekst-kontakt {
@@ -355,6 +391,7 @@ nav {
   padding-top: 2%;
   margin-left: 5%;
 }
+
 
 
 
