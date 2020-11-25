@@ -20,6 +20,7 @@
 <body>
 
 <!-- menu linje med en horizontal navigation menu -->
+<nav>
 <div class="burger-menu-btn" onclick="myFunction(this); toogleSlideMenu(this);">
   <div class="burger-menu-bar-1"></div>
   <div class="burger-menu-bar-2"></div>
@@ -38,8 +39,8 @@
 </div>
 
 <!-- LOGO -->
-
 <img src="img/lillelogo_taffel.png" alt="taffelvognens logo" class="logo">
+</nav>
 
 <a class="tilbage" href="index.html"> Tilbage </a>
 
