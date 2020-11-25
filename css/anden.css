@@ -28,7 +28,7 @@ html {
   position: relative;
   margin-top: -60%;
   margin-left: 10%;
-} 
+}
 
 /* booking boksens baggrund */
 .container form {
@@ -60,7 +60,7 @@ h1 {
   color: black ;
   margin-top: 48%;
   margin-left: 25%;
-  z-index: 2;
+  z-index: -1;
 }
 
 .bof {
@@ -69,7 +69,7 @@ h1 {
   color: black ;
   margin-top: 45%;
   margin-left:12.5%;
-  z-index: 2;
+  z-index: -1;
 }
 
 .citat-tekst-flaeskesteg {
@@ -290,7 +290,7 @@ font-size: 30px;
 color: white;
 display: block;
 transition: 300ms;
-}	
+}
 
 .side-nav a:hover {
 letter-spacing: 2px;
