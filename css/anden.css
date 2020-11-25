@@ -51,7 +51,7 @@ h1 {
   position: absolute;
   font-size: 280%;
   color: black ;
-  margin-top: 45%;
+  margin-top: 48%;
   margin-left: 25%;
   z-index: 2;
 }
@@ -104,7 +104,7 @@ h1 {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 20px;
-  padding-top: 100px;
+  padding-top: 110px;
   font-family: 'Montserrat', sans-serif;
   margin-top: 40%;
   z-index: 1;
@@ -157,21 +157,13 @@ section {
   z-index: -1;
 }
 
-/* icon-links --> som endnu ikke kan vises */
-.footer-distributed .footer-right a {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  background-color: #33383b;
-  border-radius: 2px;
-  font-size: 20px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 35px;
-  margin-left: 3px;
-  transition:all .25s;
-  z-index: 1;
+.footer-right img {
+width: 25px;
+margin: 3%;
+
 }
+
+
 
 /* Media Queries for footer --> responsivt fra mobil til web */
 @media (max-width: 600px) {
