@@ -168,8 +168,6 @@ margin: 3%;
 
 }
 
-
-
 /* Media Queries for footer --> responsivt fra mobil til web */
 @media (max-width: 600px) {
   .footer-distributed .footer-left, .footer-distributed .footer-right {
@@ -185,6 +183,68 @@ margin: 3%;
 }
 
 /*_____________________________*/
+
+/*____________OM OS____________*/
+
+/* Billedet på "omos.html" */
+.citat-billeder1 {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  position: absolute;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 208%;
+}
+/*id for hvor lang "sektion" skal være på denne side" - bestemmer hvor footer placeres */
+#citater-omos {
+  height: 2020px;
+}
+
+.citat-tekst-omos1 {
+  position: absolute;
+  font-size: 20px;
+  align-items: center;
+  background-color: #e6ecec;
+  color: black;
+  margin-right:5%;
+  margin-left: 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  padding-top: 110px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 40%;
+  height: 500px; /*længde på boksen */
+}
+
+.citat-tekst-omos2{
+position: absolute;
+font-size: 20px;
+align-items: center;
+background-color: #e6ec;
+color: black;
+margin-right:5%;
+margin-left: 5%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+padding: 20px;
+font-family: 'Montserrat', sans-serif;
+margin-top: 1100px;
+height: 500px; /*længde på boksen */
+}
+
+.citat-billeder2 {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  position: relative;
+  margin-top: 1500px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/*________________________*/
 
 h2 {
   position: absolute;
@@ -295,7 +355,7 @@ nav {
   color: white;
   display: block;
 	transition: 300ms;
-}	
+}
 
 .side-nav a:hover {
 	letter-spacing: 2px;
