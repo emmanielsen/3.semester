@@ -35,58 +35,81 @@ section {
   display:none;
   position: absolute;
   width: 100%;
+  z-index: -1;
 }
 
 /*********************************  BUGER MENU - tre strejer til kryds ********************/
 
-#cpBtn{
-  position: absolute;
-  margin-top: 30px;
-	right: 30px;
-	width: 30px;
-	height: 30px;
-	padding: 2px 5px;
-	cursor: pointer;
-	transition: border 0.3s linear 0s;
-}
-
-#cpBtn > div{
-	width: 35px;
-	height: 4px;
-	margin: 3px 0px;
-  border-radius: 4px;
-  background-color: white;
-	transition: 0.3s linear 0s;
-}
-#cp{
-  position: absolute;
+/* selve menuen */
+.burger-menu-btn {
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
   z-index: 3;
-  top: 50px;
-	width: 260px;
-	height: 350px;
-  background: rgb(198,185,172, 1);
-  border-radius: 8%;
-  opacity: 0;
-	transition: opacity 0.3s linear 0s, right 0s linear 0s;
-	cursor: pointer;
+}
+
+/* de tre strejer */
+.burger-menu-bar-1,
+.burger-menu-bar-2,
+.burger-menu-bar-3 {
+  width: 35px;
+  height: 5px;
+  background: white;
+  margin: 6px 0;
+  transition: 400ms;
+  border-radius: 2px;
 }
 
 
-.navlist {
-  list-style-type: none;
-  margin-top: 17%;
-  text-align: center;
-  margin-right: 12%;
+.change .burger-menu-bar-1{
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
-
-.navlist li a {
-  font-size: 30px;
-  color:#e6ecec;
-  text-decoration: none;
-
+.change .burger-menu-bar-2 {opacity: 0;}
+.change .burger-menu-bar-3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 
+.open-slide { /*Burger btn*/
+  float: right;
+  z-index: 1;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.side-nav {
+letter-spacing: 1px;
+text-align: center;
+height: 65%;
+width: 0%;
+position: fixed;
+z-index: 2;
+right: 0;
+background: #cebbab;
+overflow-x: hidden;
+padding-top: 45px;
+transition: 300ms;
+}
+
+.side-nav a {
+text-transform: uppercase;
+text-decoration: none;
+padding: 3% 10px 30px 30px;
+font-size: 30px;
+color: white;
+display: block;
+transition: 300ms;
+}	
+
+.side-nav a:hover {
+letter-spacing: 2px;
+  color: #f1f1f1;
+}
 
 
 #box{
@@ -204,7 +227,7 @@ section {
 }
 
 h1 {
-  z-index: 2;
+  z-index: -2;
   color: #cebbab;
   font-size: 20px;
   margin-right: 5%;
@@ -273,6 +296,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   margin-top: 30px;
 }
+
 
 
 /*
