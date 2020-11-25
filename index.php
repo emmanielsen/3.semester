@@ -3,24 +3,26 @@
     include "server.php";
 ?>
 
-    <style>
+<style>
    <?php include "css/anden.css"; ?> 
-    </style>
+</style>
 
+<script> 
+    <?php include "index.js"; ?>
+</script>
 
 <!DOCTYPE html>
 <html lang="da">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="index.js" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playball&display=swap" rel="stylesheet">
         <title> Bestil her</title>
     </head>
 <body>
 
 <!-- menu linje med en horizontal navigation menu -->
-<nav>
+<nav class="booking-nav">
 <div class="burger-menu-btn" onclick="myFunction(this); toogleSlideMenu(this);">
   <div class="burger-menu-bar-1"></div>
   <div class="burger-menu-bar-2"></div>
@@ -61,7 +63,7 @@
                 <input type="text" name="kommentar" placeholder="Kommentar" required=""> <br>
                 <br>
 
-                <input type="submit" name="submit" value="Bestil">
+                <input type="submit" name="submit" value="Bestil" href="godkendt.html">
             </form>
         </div>
     </div>
