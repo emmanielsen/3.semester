@@ -13,15 +13,45 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
+        <script src="index.js" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playball&display=swap" rel="stylesheet">
         <title> Bestil her</title>
     </head>
 <body>
 
+<!-- menu linje med en horizontal navigation menu -->
+<div id="cpBtn" onclick="toggleCP()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="cp">
+        <div id="page_content">
+            <ul class="navlist">
+              <li><a href="index.html"> <b>FORSIDE</b> </a></li>
+              <br>
+              <li><a href="index.php"> <b>BESTIL</b> </a></li>
+              <br>
+              <li><a href="index.html"> <b>SE MENUER</b> </a></li>
+              <br>
+              <li><a href="om.html"> <b>OM OS</b> </a></li>
+              <br>
+              <li><a href="kontakt.html"> <b>KONTAKT</b> </a></li>
+            </ul>
+        </div>
+    </div>
+
+<!-- LOGO -->
+
+<img src="img/lillelogo_taffel.png" alt="taffelvognens logo" class="logo">
+
+<a class="tilbage" href="index.html"> Tilbage </a>
+
+<!----- booking systemet -->
+
     <div class="container">
         <div class="inserts">
-            <h1> Bestil Her </h1>
+            <h1 class="bestil"> Bestil Her </h1>
             <form action="" method="post">
                 <input type="text" name="navn" placeholder="Navn" required=""> <br>
                 <input type="email" name="email" placeholder="Email" required=""> <br>
