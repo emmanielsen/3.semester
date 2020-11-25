@@ -20,26 +20,22 @@
 <body>
 
 <!-- menu linje med en horizontal navigation menu -->
-<div id="cpBtn" onclick="toggleCP()">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    <div id="cp">
-        <div id="page_content">
-            <ul class="navlist">
-              <li><a href="index.html"> <b>FORSIDE</b> </a></li>
-              <br>
-              <li><a href="index.php"> <b>BESTIL</b> </a></li>
-              <br>
-              <li><a href="index.html"> <b>SE MENUER</b> </a></li>
-              <br>
-              <li><a href="om.html"> <b>OM OS</b> </a></li>
-              <br>
-              <li><a href="kontakt.html"> <b>KONTAKT</b> </a></li>
-            </ul>
-        </div>
-    </div>
+<div class="burger-menu-btn" onclick="myFunction(this); toogleSlideMenu(this);">
+  <div class="burger-menu-bar-1"></div>
+  <div class="burger-menu-bar-2"></div>
+  <div class="burger-menu-bar-3"></div>
+</div>
+<div id="burger-menu" class="side-nav">
+    <a href="index.html"> <b>FORSIDE</b> </a>
+    <br>
+    <a href="index.php"> <b>BESTIL</b> </a>
+    <br>
+    <a href="index.html"> <b>SE MENUER</b> </a>
+    <br>
+    <a href="om.html"> <b>OM OS</b> </a>
+    <br>
+    <a href="kontakt.html"> <b>KONTAKT</b> </a>
+</div>
 
 <!-- LOGO -->
 
