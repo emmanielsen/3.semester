@@ -226,7 +226,7 @@ h2 {
   z-index: 5;
 }
 
-/* baggrund på linjerne */
+/* baggrund på linjerne - burgermenu */
 #cpBtn{
   position: absolute;
   margin-top: 0px;
@@ -239,7 +239,7 @@ h2 {
   padding-top: 20px;
 }
 
-/*de tre linjer */
+/*de tre linjer - burgermenu */
 #cpBtn > div{
 	width: 35px;
 	height: 4px;
@@ -316,8 +316,8 @@ h2 {
   margin-top:25%;
   font-size: 20px;
   border-radius: 20px;
-  background-color: #e6ecec;
-  color: rgb(0,0,0,0.4);
+  background-color: #cebbab;
+  color: white;
   border: none;
   text-decoration-line: none;
   text-align: center;
