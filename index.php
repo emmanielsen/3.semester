@@ -51,7 +51,7 @@
     <div class="container">
         <div class="inserts">
             <h1 class="bestil"> Bestil Her </h1>
-            <form action="" method="post">
+            <form action="godkendt.html" method="post">
                 <input type="text" name="navn" placeholder="Navn" required=""> <br>
                 <input type="email" name="email" placeholder="Email" required=""> <br>
                 <input type="text" name="adresse" placeholder="Adresse" required=""> <br>
