@@ -105,7 +105,7 @@ font-size: 30px;
 color: white;
 display: block;
 transition: 300ms;
-}	
+}
 
 .side-nav a:hover {
 letter-spacing: 2px;
@@ -241,9 +241,9 @@ h1 {
 }
 
 
-
+/* Sektionens længde på forsiden */
 #citater{
-  height: 1900px;
+  height: 1200px;
 }
 
 /* Citater og images på forsiden */
@@ -357,9 +357,6 @@ h1 {
 
 
 /*********** citater Desktop *********/
-  #citater {
-    height:5000px;
-  }
   .citat-billeder {
     width: 40%;
     float: left;
