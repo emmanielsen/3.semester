@@ -57,8 +57,8 @@
                 <input type="text" name="adresse" placeholder="Adresse" required=""> <br>
                 <input type="text" name="postnr" placeholder="Postnr." required=""> <br>
                 <input type="date" name="dato" placeholder="Dato for udlejning" required=""> <br>
-                <input type="text" name="tidsrum_fra" placeholder="Tidsrum fra" required=""> <br>
-                <input type="text" name="tidsrum_til" placeholder="Tidsrum til" required=""> <br>
+                <input type="text" name="tidsrum_fra" placeholder="Antal timer" required=""> <br>
+                <input type="text" name="tidsrum_til" placeholder="Valg af menu" required=""> <br>
                 <input type="text" name="antal" placeholder="Antal gæster" required=""> <br>
                 <input type="text" name="kommentar" placeholder="Kommentar" required=""> <br>
                 <br>
@@ -68,3 +68,21 @@
         </div>
     </div>
 </body>
+<footer class="footer-distributed">
+
+    <div class="footer-right">
+      <a href="https://www.facebook.com/Taffelvognen">
+        <img alt="facebook logo" src="img/fblogo.png">
+    </a>
+
+      <a href="https://www.instagram.com/taffelvognen/">
+        <img alt="instagram logo" src="img/iglogo.jpg">
+    </a>
+        </div>
+
+    <div class="footer-left">
+      <p>Taffelvognen &copy; 2019</p>
+    </div>
+
+  </footer>
+  </html>

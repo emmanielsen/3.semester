@@ -222,10 +222,6 @@ letter-spacing: 2px;
   padding-top: 5%;
 }
 
-.vælg:hover {
-  background-color: #cebbab;
-  color: #e6ecec;
-}
 
 h1 {
   z-index: -2;
@@ -298,16 +294,23 @@ h1 {
   margin-top: 30px;
 }
 
+.pil {
+  display:none; 
+}
+
+.tilbagetop, .toptekst {
+  display: none;
+}
 
 
 /*
   ##Device = Laptops, Desktop
 */
 
-@media only screen and (min-device-width: 376px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 1440px) and (max-device-width: 2000px) {
 
   #hjem {
-    height: 5000px;
+    height: 1000px;
   }
 
   .stortlogo {
@@ -316,40 +319,56 @@ h1 {
     margin-top: 15%;
   }
 
+  .pil {
+    display: block;
+    width: 150px;
+    margin-top: 50%;
+    margin-left: 45%;
+    position: absolute;
+  }
 /************** menu bokse desktop ********/
   #box {
-    height:5000px;
+    height:1200px;
+  }
+  .slides {
+   margin-top: -100px;
+  
   }
 
     /* scroll baren */
 .slides::-webkit-scrollbar {
   width: 5px;
-  height: 40px;
+  height: 10px;
 }
 
     /* boksenes design */
 .slides > div {
-  width: 1200px;
-  height: 2400px;
-  border-radius: 50px;
+  width: 300px;
+  height: 600px;
+  border-radius: 20px;
+  margin-top: 0px;
 }
 
 .boksbilleder {
-  border-radius: 50px;
-
+  border-radius: 20px;
 }
 
 .mad1, .mad2, .mad3, .mad4, .mad5 {
-  font-size: 180px;
+  font-size: 40px;
 }
 
 .vælg {
-  font-size: 100px;
+  font-size: 30px;
+}
+
+.vælg:hover {
+  background-color: #cebbab;
+  color: #b88b9e;
 }
 
 h1 {
-  font-size: 300px;
-  margin-top: -300px;
+  font-size: 40px;
+  margin-top:100px;
   margin-bottom: 200px;
 
 }
@@ -357,48 +376,84 @@ h1 {
 
 
 /*********** citater Desktop *********/
+
+#citater{
+  height:1500px;
+}
   .citat-billeder {
-    width: 40%;
+    width: 45%;
     float: left;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px ;
     margin-right:-130px;
     position: absolute;
   }
 
   .citat-tekst {
-    font-size: 100px;
+    font-size: 40px;
     float: right;
-    width: 50%;
+    width: 45%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    padding: 100px;
-    line-height: 150px;
-    height: 1720px;
-    margin-top: -19px;
-    padding-top: 430px;
+    border-top-left-radius: 0px ;
+    padding: 20px;
+    line-height: 55px;
+    height: 490px;
+    margin-top: -25px;
+    padding-top: 30px;
   }
 
   .citat-billeder2 {
-    position: absolute;
-    width: 40%;
+    width: 45%;
     float: left;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    margin-top: 2000px;
+    border-bottom-right-radius: 0px ;
+    margin-right:0px;
+    position: absolute;
+    margin-top: 700px;
   }
 
   .citat-tekst2 {
-    font-size: 100px;
+    font-size: 30px;
     float: right;
-    width: 50%;
+    width: 45%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    padding: 100px;
-    line-height: 150px;
-    margin-top: 200px;
-    height: 1537px;
-    padding-top: 192.12px;
+    border-top-left-radius: 0px ;
+    padding: 20px;
+    line-height: 45px;
+    height: 433px;
+    margin-top: 236px;
+    padding-top: 30px;
   }
+
+  .tilbagetop {
+    display:block; 
+    margin-top: -100px;
+    position: absolute;
+    width: 100px;
+    margin-left: 32%;
+  }
+
+  .toptekst a:hover {
+    color: #b88b9e;
+  }
+
+  .toptekst {
+    display:block; 
+    margin-top: 90%;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 41%;
+    color: black;
+  }
+
+  .toptekst a {
+    text-decoration-line: none;
+    color: black;
+  }
+
 
 }

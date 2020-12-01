@@ -52,7 +52,7 @@ h1 {
 
 /* menu siden for HOTDOG */
 
-h1 {
+.hotdog {
   position: absolute;
   font-size: 280%;
   color: black ;
@@ -62,6 +62,15 @@ h1 {
 }
 
 .bof {
+  position: absolute;
+  font-size: 280%;
+  color: black ;
+  margin-top: 45%;
+  margin-left:12.5%;
+  z-index: 2;
+}
+
+.sand {
   position: absolute;
   font-size: 280%;
   color: black ;
@@ -116,6 +125,24 @@ h1 {
   height: 700px;
 }
 
+.lene {
+  width:20%;
+  position: absolute;
+  margin-top: 230%;
+  z-index: 4;
+  margin-left: 10%;
+}
+
+.lene-tekst {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  margin-left: 35%;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 238%;
+  z-index: 5;
+}
+
 /* Boksen/teksten til kontakt-siden */
 .citat-tekst-kontakt {
   position: absolute;
@@ -142,6 +169,7 @@ section {
   display: inline-block;
   background: white; /*sektionen er lavet hvid, så man ikke kan se den*/
   height: 800px; /*dette gør at footeren kommer langt nok ned*/
+  
 }
 
 /* Selve boksen til footeren */
@@ -152,6 +180,7 @@ section {
   text-align: left;
   font: normal 16px sans-serif;
   padding: 55px 60px;
+
 }
 
 /* Taffelvognen ® 2019 */
@@ -168,23 +197,19 @@ margin: 3%;
 
 }
 
-/* Media Queries for footer --> responsivt fra mobil til web */
-@media (max-width: 600px) {
-  .footer-distributed .footer-left, .footer-distributed .footer-right {
-    text-align: center;
-  }
-  .footer-distributed .footer-right {
-    float: none;
-    margin: 0 auto 20px;
-  }
-  .footer-distributed .footer-left p.footer-links {
-    line-height: 1.8;
-  }
-}
 
 /*_____________________________*/
 
 /*____________OM OS____________*/
+
+.omtekst {
+  position: absolute;
+  font-size: 280%;
+  color: black ;
+  margin-top: 48%;
+  margin-left:30%;
+  z-index: 2;
+}
 
 /* Billedet på "omos.html" */
 .citat-billeder1 {
@@ -264,24 +289,6 @@ h2 {
   margin-left: 30%;
 }
 
-
-.lene {
-  width:20%;
-  position: absolute;
-  margin-top: 230%;
-  z-index: 4;
-  margin-left: 10%;
-}
-
-.lene-tekst {
-  position: absolute;
-  font-size: 20px;
-  color: black;
-  margin-left: 35%;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 238%;
-  z-index: 5;
-}
 
 /*********************************  BUGER MENU - tre strejer til kryds ********************/
 nav {
@@ -386,11 +393,6 @@ nav {
   margin-left: 12.5%;
 }
 
-.vælg:hover {
-  background-color: #cebbab;
-  color: #e6ecec;
-}
-
 .tilbage {
   width: 30%;
   position: absolute;
@@ -405,4 +407,186 @@ nav {
   text-align: center;
   padding-top: 2%;
   margin-left: 5%;
+}
+
+
+/*
+  ##Device = Laptops, Desktop
+*/ 
+@media only screen and (min-device-width: 1440px) and (max-device-width: 2000px) {
+
+  /* Hotdog menu */ 
+  .hotdog {
+    font-size: 700%;
+    margin-top: 48%;
+    margin-left: 10%;
+  }
+
+  /*bøfsandwich menu */
+  .bof {
+    font-size: 500%;
+  } 
+
+  /* sandwich menu */
+  .sand {
+    font-size: 600%;
+  }
+
+  /*flæskestegs menu */
+  .citat-tekst-flaeskesteg {
+    font-size: 30px;
+    padding-top: 300px;
+    padding-right: 40%;
+    margin-top: 40%;
+    height: 700px;
+  }
+
+  /* boksen bag menuen og billedet under */
+  .citat-billeder {
+    margin-top: 111%;
+  }
+  
+  .citat-tekst {
+    font-size: 30px;
+    padding-top: 300px;
+    padding-right: 40%;
+    margin-top: 40%;
+    height: 700px;
+  }
+
+  /*kokken bag med lene og billede af lene */
+  .lene {
+    width:25%;
+    margin-top: 70%;
+    margin-left: 60%;
+  }
+  
+  .lene-tekst {
+    font-size: 30px;
+    margin-left: 65%;
+    margin-top: 65%;
+  }
+
+  h2 {
+    position: absolute;
+    font-size: 35px;
+    color: black;
+    margin-left: 65%;
+    margin-top: 61%;
+  }
+
+  /* bestil knappen */
+  .vælg {
+    height: 10%;
+    margin-top:160%;
+    font-size: 40px;
+    z-index: 6;
+  }
+  
+  .vælg:hover {
+    background-color: #cebbab;
+    color: #b88b9e;
+  }
+
+  /* tilbage knappen */
+  .tilbage {
+    width: 20%;
+    height: 5%;
+    margin-top:25%;
+    font-size: 30px;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    background-color: rgb(206,187,171,0.8);
+  }
+
+  .tilbage:hover {
+    background-color: #cebbab;
+    color: #b88b9e;
+  }
+
+  .logo {
+    width: 10%;
+  }
+
+  /* en på top menu */
+  nav {
+    height: 20%;
+  }
+  
+  /* selve menuen */
+  .burger-menu-btn {
+    margin-top: 70px;
+    margin-right: 50px;
+  }
+  
+  /* de tre strejer */
+  .burger-menu-bar-1,
+  .burger-menu-bar-2,
+  .burger-menu-bar-3 {
+    width: 66px;
+  }
+
+  /* brune boks der kommer ud fra højre side*/
+  .side-nav {
+    height: 75%;
+  }
+
+  /*footer */
+
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+  
+  /* om os */
+  .omtekst {
+    font-size: 600%;
+    margin-left: 40%;
+    margin-top: 44%;
+  }
+  
+  /* Billedet på "omos.html" */
+  .citat-billeder1 {
+    margin-top: 69%;
+  }
+  #citater-omos {
+    height: 1800px;
+  }
+  
+  .citat-tekst-omos1 {
+    font-size: 30px;
+    padding-top: 200px;
+    height: 200px; /*højde på boksen */
+    line-height: 44px;
+  }
+  
+  .citat-tekst-omos2{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    height: 200px; /*højde på boksen */
+    line-height: 44px;
+    margin-top: 150%;
+  }
+  
+  .citat-billeder2 {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top:172%;
+    margin-bottom: 20%;
+  }
+
+  
+  
+  
 }
