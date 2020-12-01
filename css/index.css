@@ -36,7 +36,7 @@ section {
   display:none;
   position: absolute;
   width: 100%;
-  z-index: -1;
+  z-index: -2;
 }
 
 /*********************************  BUGER MENU - tre strejer til kryds ********************/
@@ -302,6 +302,42 @@ h1 {
   display: none;
 }
 
+/*_________ Footer ____________*/
+
+/* Sektionen er placeret over footer men bag tekst og menu */
+section {
+  width: 100%;
+  display: inline-block;
+  background: white; /*sektionen er lavet hvid, så man ikke kan se den*/
+  height: 800px; /*dette gør at footeren kommer langt nok ned*/
+  
+}
+
+/* Selve boksen til footeren */
+.footer-distributed {
+  background-color: #292c2f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 55px 60px;
+
+}
+
+/* Taffelvognen ® 2019 */
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+  z-index: -1;
+}
+
+.footer-right img {
+width: 35px;
+margin: 3%;
+
+}
+
 
 /*
   ##Device = Laptops, Desktop
@@ -453,6 +489,26 @@ h1 {
   .toptekst a {
     text-decoration-line: none;
     color: black;
+  }
+
+  /* manu knapper */
+  
+  /* selve menuen */
+  .burger-menu-btn {
+    margin-top: 70px;
+    margin-right: 50px;
+  }
+  
+  /* de tre strejer */
+  .burger-menu-bar-1,
+  .burger-menu-bar-2,
+  .burger-menu-bar-3 {
+    width: 66px;
+  }
+
+  /* brune boks der kommer ud fra højre side*/
+  .side-nav {
+    height: 80%;
   }
 
 

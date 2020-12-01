@@ -419,17 +419,19 @@ nav {
   .hotdog {
     font-size: 700%;
     margin-top: 48%;
-    margin-left: 10%;
+    margin-left: 35%;
   }
 
   /*bøfsandwich menu */
   .bof {
     font-size: 500%;
+    margin-left: 30%;
   } 
 
   /* sandwich menu */
   .sand {
     font-size: 600%;
+    margin-left: 33%;
   }
 
   /*flæskestegs menu */
@@ -438,12 +440,18 @@ nav {
     padding-top: 300px;
     padding-right: 40%;
     margin-top: 40%;
-    height: 700px;
+    height: 900px;
+    width: 30%;
+    margin-left: 15%;
   }
 
   /* boksen bag menuen og billedet under */
   .citat-billeder {
-    margin-top: 111%;
+    margin-top: 124.5%;
+    margin-left: 15%;
+    margin-bottom: 20%;
+    width: 71.5%;
+
   }
   
   .citat-tekst {
@@ -451,7 +459,9 @@ nav {
     padding-top: 300px;
     padding-right: 40%;
     margin-top: 40%;
-    height: 700px;
+    height: 900px;
+    width: 30%;
+    margin-left: 15%;
   }
 
   /*kokken bag med lene og billede af lene */
@@ -477,10 +487,12 @@ nav {
 
   /* bestil knappen */
   .vælg {
+    width: 50%;
     height: 10%;
     margin-top:160%;
     font-size: 40px;
     z-index: 6;
+    margin-left: 25%;
   }
   
   .vælg:hover {
@@ -586,7 +598,23 @@ nav {
     margin-bottom: 20%;
   }
 
+  /* Kontakt siden */
+
+  /* Boksen/teksten til kontakt-siden */
+  .citat-tekst-kontakt {
+    font-size: 30px;
+    padding-top: 250px;
+    padding-bottom: 80px;
+    height: 950px; /*højde på boksen */
+    line-height: 44px;
+    margin-top: 40%;
+    margin-bottom: 20%;
+  }
   
-  
-  
+  .lenekontakt {
+    width:40%;
+    margin-top: 85%;
+    margin-left: 30%;
+  }
+
 }
