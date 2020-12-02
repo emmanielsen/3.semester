@@ -46,7 +46,7 @@
 
 <a class="tilbage" href="index.html"> Tilbage </a>
 
-<!----- booking systemet -->
+<!--booking systemet -->
 
     <div class="container">
         <div class="inserts">
@@ -67,8 +67,8 @@
             </form>
         </div>
     </div>
-</body>
-<footer class="footer-distributed-php">
+
+    <footer class="footer-distributed-php">
 
     <div class="footer-right">
       <a href="https://www.facebook.com/Taffelvognen">
@@ -85,4 +85,5 @@
     </div>
 
   </footer>
-  </html>
+</body>
+</html>
