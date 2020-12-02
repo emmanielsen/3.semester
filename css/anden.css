@@ -22,11 +22,12 @@ html {
   padding: 20px;
 }
 
-h1 {
+.bestil {
   text-align: center;
   font-size: 200%;
   color: #443b2b;
   font-family: 'Montserrat', sans-serif;
+  margin-top: 80%;
 }
 
 /* boksens baggrund */
@@ -37,6 +38,7 @@ h1 {
   box-sizing: border-box;
   border-radius: 2%;
   margin-left: -15% ;
+  margin-top: 20%;
 }
 
 /* boksens indre bokse */
@@ -44,10 +46,32 @@ h1 {
   width: 90%;
   margin-left: 5%;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 15px;
   border-radius: 4px;
   border: none;
+  margin-top: 5px;
   margin-bottom: 10px;
+}
+/* Selve boksen til footeren på index.php */
+.footer-distributed-php {
+  background-color: #292c2f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 55px 60px;
+  display: inline-block;
+  height:50px;
+  position: sticky;
+  margin-top:40%;
+}
+
+.booking-nav-php {
+  width:100%;
+  height: 10%;
+  background-color: #e6ecec;
+  position: absolute;
+  margin-top: -8px;
 }
 
 
@@ -180,7 +204,7 @@ h1 {
 
 /* Taffelvognen ® 2019 */
 .footer-distributed .footer-left p {
-  color: #8f9296;
+  color: #555e69;
   font-size: 14px;
   margin-top: 0px;
   z-index: 1;
@@ -541,7 +565,7 @@ nav {
     height: 75%;
   }
 
-  /*footer */
+  /*footer desktop */
 
   .footer-distributed .footer-left, .footer-distributed .footer-right {
     text-align: center;
@@ -554,7 +578,7 @@ nav {
     line-height: 1.8;
   }
   
-  /* om os */
+  /* om os  desktop */
   .omtekst {
     font-size: 600%;
     margin-left: 40%;
@@ -596,7 +620,7 @@ nav {
     margin-bottom: 20%;
   }
 
-  /* Kontakt siden */
+  /* Kontakt siden desktop*/
 
   /* Boksen/teksten til kontakt-siden */
   .citat-tekst-kontakt {
@@ -615,4 +639,39 @@ nav {
     margin-left: 30%;
   }
 
+  /* php booking side desktop */
+    /* booking system på index.php siden*/
+  .container {
+    width: 50%;
+    border: none;
+    margin: 2% auto;
+    padding: 20px;
+  } 
+
+  .bestil {
+    text-align: center;
+    font-size: 40px;
+    color: #443b2b;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60%;
+  }
+
+  /* boksens baggrund */
+  .container form {
+    padding: 20px 13px;
+    margin-top: 8%;
+  }
+
+  /* boksens indre bokse */
+  .container form input {
+    padding: 25px;
+    font-size: 30px;
+  }
+
+  .booking-nav-php {
+    height: 20%;
+    margin-top: -30px;
+  }
+
+  
 }

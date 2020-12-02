@@ -22,7 +22,7 @@
 <body>
 
 <!-- menu linje med en horizontal navigation menu -->
-<nav class="booking-nav">
+<nav class="booking-nav-php">
 <div class="burger-menu-btn" onclick="myFunction(this); toogleSlideMenu(this);">
   <div class="burger-menu-bar-1"></div>
   <div class="burger-menu-bar-2"></div>
@@ -57,8 +57,8 @@
                 <input type="text" name="adresse" placeholder="Adresse" required=""> <br>
                 <input type="text" name="postnr" placeholder="Postnr." required=""> <br>
                 <input type="date" name="dato" placeholder="Dato for udlejning" required=""> <br>
-                <input type="text" name="tidsrum_fra" placeholder="Antal timer" required=""> <br>
-                <input type="text" name="tidsrum_til" placeholder="Valg af menu" required=""> <br>
+                <input type="text" name="antal_timer" placeholder="Antal timer" required=""> <br>
+                <input type="text" name="menu" placeholder="Valg af menu" required=""> <br>
                 <input type="text" name="antal" placeholder="Antal gæster" required=""> <br>
                 <input type="text" name="kommentar" placeholder="Kommentar" required=""> <br>
                 <br>
@@ -68,7 +68,7 @@
         </div>
     </div>
 </body>
-<footer class="footer-distributed">
+<footer class="footer-distributed-php">
 
     <div class="footer-right">
       <a href="https://www.facebook.com/Taffelvognen">

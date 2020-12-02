@@ -8,14 +8,14 @@ if (isset($_POST['navn'])) {
    $adresse  = mysqli_real_escape_string($db, $_POST['adresse']);
    $postnr   = mysqli_real_escape_string($db, $_POST['postnr']);
    $dato    = mysqli_real_escape_string($db, $_POST['dato']);
-   $tidsrum_fra    = mysqli_real_escape_string($db, $_POST['tidsrum_fra']);
-   $tidsrum_til    = mysqli_real_escape_string($db, $_POST['tidsrum_til']);
+   $antal_timer    = mysqli_real_escape_string($db, $_POST['antal_timer']);
+   $menu    = mysqli_real_escape_string($db, $_POST['menu']);
    $antal    = mysqli_real_escape_string($db, $_POST['antal']);
    $kommentar    = mysqli_real_escape_string($db, $_POST['kommentar']);
 
 // query til at gemme det i databasen 
-  $query = mysqli_query($db, "INSERT INTO booking_system (navn,email,adresse,postnr,dato,tidsrum_fra,tidsrum_til,antal,kommentar) 
-  VALUES('$navn','$email','$adresse','$postnr','$dato','$tidsrum_fra','$tidsrum_til','$antal','$kommentar')") or die(mysqli_error($db));
+  $query = mysqli_query($db, "INSERT INTO booking_system (navn,email,adresse,postnr,dato,antal_timer,menu,antal,kommentar) 
+  VALUES('$navn','$email','$adresse','$postnr','$dato','$antal_timer','$menu','$antal','$kommentar')") or die(mysqli_error($db));
 
   if ($query) {
     $_SESSION['succes'] ="Din reservation er blevet sendt til Taffelvognen";

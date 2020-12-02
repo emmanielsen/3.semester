@@ -505,6 +505,18 @@ h1 {
   .side-nav {
     height: 80%;
   }
-
+  
+/* footer desktop */
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+  
 
 }
