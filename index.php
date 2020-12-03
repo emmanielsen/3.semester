@@ -1,13 +1,13 @@
-<?php 
+<?php
     session_start();
     include "server.php";
 ?>
 
 <style>
-   <?php include "css/anden.css"; ?> 
+   <?php include "css/anden.css"; ?>
 </style>
 
-<script> 
+<script>
     <?php include "index.js"; ?>
 </script>
 
@@ -41,10 +41,10 @@
 </div>
 
 <!-- LOGO -->
-<img src="img/lillelogo_taffel.png" alt="taffelvognens logo" class="logo">
+<a href="index.html"> <img src="img/lillelogo_taffel.png" alt="taffelvognens logo" class="logo"> </a>
 </nav>
 
-<a class="tilbage" href="index.html"> Tilbage </a>
+<button class="tilbage" onclick="goBack()">Tilbage</button>
 
 <!--booking systemet -->
 
