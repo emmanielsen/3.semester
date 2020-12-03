@@ -51,7 +51,7 @@
     <div class="container">
         <div class="inserts">
             <h1 class="bestil"> Bestil Her </h1>
-            <form action="godkendt.html" method="post">
+            <form action="godkendt.php" method="post">
                 <input type="text" name="navn" placeholder="Navn" required=""> <br>
                 <input type="email" name="email" placeholder="Email" required=""> <br>
                 <input type="text" name="adresse" placeholder="Adresse" required=""> <br>
@@ -63,7 +63,7 @@
                 <input type="text" name="kommentar" placeholder="Kommentar" required=""> <br>
                 <br>
 
-                <input type="submit" name="submit" value="Bestil" href="godkendt.html">
+                <input type="submit" name="submit" value="Bestil" href="godkendt.php">
             </form>
         </div>
     </div>
