@@ -1,5 +1,4 @@
 <?php
-    session_start();
     include "server.php";
 ?>
 
@@ -63,7 +62,7 @@
                 <input type="text" name="kommentar" placeholder="Kommentar" required=""> <br>
                 <br>
 
-                <input type="submit" name="submit" value="Bestil" href="godkendt.php">
+                <input type="submit" name="submit" value="Bestil">
             </form>
         </div>
     </div>
