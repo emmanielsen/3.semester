@@ -434,10 +434,10 @@ nav {
 
 /*
   ##Device = Laptops, Desktop
-*/ 
+*/
 @media only screen and (min-device-width: 1440px) and (max-device-width: 2000px) {
 
-  /* Hotdog menu */ 
+  /* Hotdog menu */
   .hotdog {
     font-size: 700%;
     margin-top: 48%;
@@ -448,7 +448,7 @@ nav {
   .bof {
     font-size: 500%;
     margin-left: 30%;
-  } 
+  }
 
   /* sandwich menu */
   .sand {
@@ -475,7 +475,7 @@ nav {
     width: 71.5%;
 
   }
-  
+
   .citat-tekst {
     font-size: 30px;
     padding-top: 300px;
@@ -492,7 +492,7 @@ nav {
     margin-top: 70%;
     margin-left: 60%;
   }
-  
+
   .lene-tekst {
     font-size: 30px;
     margin-left: 65%;
@@ -516,7 +516,7 @@ nav {
     z-index: 6;
     margin-left: 25%;
   }
-  
+
   .vælg:hover {
     background-color: #cebbab;
     color: #b88b9e;
@@ -546,13 +546,13 @@ nav {
   nav {
     height: 20%;
   }
-  
+
   /* selve menuen */
   .burger-menu-btn {
     margin-top: 70px;
     margin-right: 50px;
   }
-  
+
   /* de tre strejer */
   .burger-menu-bar-1,
   .burger-menu-bar-2,
@@ -577,14 +577,20 @@ nav {
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
-  
+  /* ____________OM____________*/
+
+video{
+  width:50%;
+  margin-top: 40%;
+}
+
   /* om os  desktop */
   .omtekst {
     font-size: 600%;
     margin-left: 40%;
     margin-top: 44%;
   }
-  
+
   /* Billedet på "omos.html" */
   .citat-billeder1 {
     margin-top: 69%;
@@ -592,14 +598,14 @@ nav {
   #citater-omos {
     height: 1800px;
   }
-  
+
   .citat-tekst-omos1 {
     font-size: 30px;
     padding-top: 200px;
     height: 200px; /*højde på boksen */
     line-height: 44px;
   }
-  
+
   .citat-tekst-omos2{
     font-size: 30px;
     padding-top: 40px;
@@ -608,7 +614,7 @@ nav {
     line-height: 44px;
     margin-top: 150%;
   }
-  
+
   .citat-billeder2 {
     width: 90%;
     margin-right: 5%;
@@ -632,7 +638,7 @@ nav {
     margin-top: 40%;
     margin-bottom: 20%;
   }
-  
+
   .lenekontakt {
     width:40%;
     margin-top: 85%;
@@ -646,7 +652,7 @@ nav {
     border: none;
     margin: 2% auto;
     padding: 20px;
-  } 
+  }
 
   .bestil {
     text-align: center;
@@ -673,5 +679,5 @@ nav {
     margin-top: -30px;
   }
 
-  
+
 }
