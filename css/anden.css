@@ -360,8 +360,8 @@ height: 300px; /*højde på boksen */
   position: relative;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  margin-top: 300%;
-  margin-bottom: -300%;
+  margin-top: 250%;
+  margin-bottom: -310%;
 }
 
 /*________________________*/
@@ -597,11 +597,12 @@ nav {
 
   /* tilbage knappen */
   .tilbage {
-    width: 20%;
-    height: 10%;
-    margin-top:25%;
-    font-size: 30px;
-    padding-top: 1%;
+    width: 10%;
+    height: 5%;
+    margin-top:15%;
+    margin-bottom: -10%;
+    font-size: 20px;
+    padding-top: 0.5%;
     padding-bottom: 0.5%;
     background-color: rgb(206,187,171,0.8);
   }
@@ -653,21 +654,26 @@ nav {
   /* ____________OM____________*/
 
 video{
-  width:50%;
-  margin-top: 40%;
+  width:40%;
+  margin-top: 10%;
 }
 
   /* om os  desktop */
   .omtekst {
-    font-size: 600%;
-    margin-left: 40%;
-    margin-top: 44%;
+    font-size: 300%;
+    margin-left: 42%;
+    margin-top: 13%;
   }
 
   /* Billedet på "omos.html" */
   .citat-billeder1 {
-    margin-top: 69%;
+    margin-top: 32%;
+    margin-right:20%;
+    margin-left: 20%;
+    width: 60%;
+    align-items: center;
   }
+
   #citater-omos {
     height: 1800px;
   }
@@ -679,25 +685,59 @@ video{
     line-height: 44px;
   }
 
+  .citat-tekst-omos1 {
+    position: absolute;
+    font-size: 20px;
+    align-items: center;
+    background-color: #e6ecec;
+    color: black;
+    margin-right:20%;
+    margin-left: 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    padding-top: 110px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10%;
+    height: 300px; /*højde på boksen */
+  }
+
   .citat-tekst-omos2{
     font-size: 30px;
     padding-top: 40px;
     padding-bottom: 80px;
     height: 200px; /*højde på boksen */
     line-height: 44px;
-    margin-top: 150%;
+  }
+
+  .citat-tekst-omos2{
+  position: absolute;
+  font-size: 20px;
+  align-items: center;
+  background-color: #e6ecec;
+  color: black;
+  margin-right:20%;
+  margin-left: 20%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  padding-right: 492px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 90%;
+  height: 300px; /*højde på boksen */
   }
 
   .citat-billeder2 {
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 60%;
+    margin-left: 20%;
+    align-items: center;
     position: relative;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top:172%;
+    margin-top: 110%;
     margin-bottom: 20%;
   }
+
 
   /* Kontakt siden desktop*/
 
