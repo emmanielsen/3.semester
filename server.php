@@ -14,17 +14,11 @@ if (isset($_POST['navn'])) {
    $kommentar    = mysqli_real_escape_string($db, $_POST['kommentar']);
 
 // query til at gemme det i databasen 
-  $query = mysqli_query($db, "INSERT INTO booking_system (navn,email,adresse,postnr,dato,antal_timer,menu,antal,kommentar) 
-  VALUES('$navn','$email','$adresse','$postnr','$dato','$antal_timer','$menu','$antal','$kommentar')") or die(mysqli_error($db));
-
-  if ($query) {
-    $_SESSION['succes'] ="Din reservation er blevet sendt til Taffelvognen";
-    $_SESSION['id'] = $db->insert_id;
-    header('location: index.php');
-    exit();
-  } else {
-      $_SESSION['error'] = "Undskyld der er sket en fejl"; 
-  }
+  $query = "INSERT INTO booking_system (navn,email,adresse,postnr,dato,antal_timer,menu,antal,kommentar) 
+  VALUES('$navn','$email','$adresse','$postnr','$dato','$antal_timer','$menu','$antal','$kommentar')";
+  $db->query($query);
+  //echo $query; 
+  //exit; 
 }
 
 ?>

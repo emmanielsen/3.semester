@@ -1,5 +1,4 @@
 <?php
-    session_start();
     include "server.php";
 ?>
 
@@ -63,10 +62,30 @@
                 <input type="text" name="kommentar" placeholder="Kommentar" required=""> <br>
                 <br>
 
-                <input type="submit" name="submit" value="Bestil" href="godkendt.php">
+                <label class="nyhed">Privat 
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="nyhed">Erhverv 
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <br> 
+                <br>
+                <label class="nyhed">Ja tak til nyhedsbrev! 
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+
+                <input type="submit" name="submit" value="Bestil">
+
+                
             </form>
+            
         </div>
     </div>
+
+
 
     <footer class="footer-distributed-php">
 
