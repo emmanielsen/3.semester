@@ -13,13 +13,11 @@ html {
   scroll-behavior: smooth;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
+  
 }
 /* booking system på index.php siden*/
 .container {
-  width: 50%;
-  border: none;
-  margin: 2% auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .bestil {
@@ -27,18 +25,18 @@ html {
   font-size: 200%;
   color: #443b2b;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 80%;
+  margin-top: 50%;
 }
 
 /* boksens baggrund */
 .container form {
-  width: 130%;
   background:#cebbab;
   padding: 8px 13px;
   box-sizing: border-box;
   border-radius: 2%;
-  margin-left: -15% ;
   margin-top: 20%;
+  margin-left: 15%;
+  width: 250px;
 }
 
 /* boksens indre bokse */
@@ -101,7 +99,6 @@ html {
 
 /* Create a custom checkbox */
 .checkmark {
-
   position: absolute;
   top: 0;
   left: 0;
