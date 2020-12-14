@@ -615,9 +615,9 @@ nav {
   }
 
   /* tilbage knappen */
-  .tilbage {
+  .tilbage-btn {
     width: 10%;
-    height: 2%;
+    height: 5%;
     margin-top:15%;
     margin-bottom: -10%;
     font-size: 20px;
