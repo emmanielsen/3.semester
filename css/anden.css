@@ -506,7 +506,7 @@ nav {
   margin-left: 12.5%;
 }
 
-.tilbage {
+.tilbage-btn {
   width: 30%;
   position: absolute;
   height: 4%;
@@ -617,7 +617,7 @@ nav {
   /* tilbage knappen */
   .tilbage {
     width: 10%;
-    height: 5%;
+    height: 2%;
     margin-top:15%;
     margin-bottom: -10%;
     font-size: 20px;
@@ -658,7 +658,8 @@ nav {
 
   /* brune boks der kommer ud fra højre side*/
   .side-nav {
-    height: 75%;
+    height: 82%;
+
   }
 
   /*footer desktop */
