@@ -145,7 +145,34 @@ html {
   transform: rotate(45deg);
 }
 
+/* Tak for din bestilling - overskrift */
+.tak {
+  position: absolute;
+  font-size: 280%;
+  color: black ;
+  margin-top: 60%;
+  margin-left:37%;
+  z-index: 2;
+} 
 
+/* Tak for din bestilling - tekst og boks */
+.citat-tekst-tak {
+  position: absolute;
+  font-size: 20px;
+  align-items: center;
+  background-color: #e6ecec;
+  color: black;
+  margin-right:5%;
+  margin-left: 5%;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 150px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 45%;
+  margin-bottom: -322px;
+  z-index: 1;
+  height: 280px;
+}
 
 /* menu siden for HOTDOG */
 
@@ -821,4 +848,43 @@ video{
   transform: rotate(45deg);
 }
 
+}
+
+/* Tak for din bestilling - overskrift - desktop */
+.tak {
+  position: absolute;
+  font-size: 280%;
+  color: black ;
+  margin-top: 49%;
+  margin-left:44%;
+  z-index: 2;
+} 
+
+/* Tak for din bestilling - tekst og boks - desktop */
+.citat-tekst-tak {
+  position: absolute;
+  font-size: 20px;
+  align-items: center;
+  background-color: #e6ecec;
+  color: black;
+  margin-right: 20%;
+  margin-left: 25%;
+  border-radius: 10px;
+  padding: 30px;
+  padding-top: 150px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 45%;
+  margin-bottom: -322px;
+  z-index: 1;
+  height: 280px;
+}
+
+.tilbage{
+  width: 20%;
+    height: 10%;
+    margin-top:15%;
+    font-size: 30px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: rgb(206,187,171,0.8);
 }
