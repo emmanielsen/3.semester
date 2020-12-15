@@ -814,6 +814,7 @@ video{
   .container form {
     padding: 20px 13px;
     margin-top: 8%;
+    width:70%;
   }
 
   /* boksens indre bokse */
