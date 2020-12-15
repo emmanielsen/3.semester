@@ -51,14 +51,14 @@
 
 <img src="img/lillelogo_taffel.png" alt="taffelvognens logo" class="logo">
 </nav>
-<a class="tilbage" href="#box"> Tilbage </a>
+<button class="tilbage-btn" onclick="goBack()">Tilbage</button>
 
 <div class="citater">
         <h1 class="tak"> TAK </h1>
         <p class="citat-tekst-tak"> Tak for din bestilling. <br>
-            <br> Det betyder meget for os, at du har valgt lige netop os. 
-            <br> Vi vil gøre alt for at dit arrangement bliver uforglemmeligt. <br>
-            <br> Vi glæder os til at se jer. <br> Taffelvognen
+            <br> Dine oplysninger og ønskede booking er blevet behandlet. 
+            <br> Vi vil kontakte dig via din mail i løbet af de næste 24 timer. <br>
+            <br> Vi glæder os til at se dig! <br> <br> Taffelvognen
         </p>
         <p class="underskrift"> Lene Ellebæk </p>
 </div>
