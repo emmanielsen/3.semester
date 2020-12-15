@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect('localhost', 'root', 'root', 'booking');
+$db = mysqli_connect('emmahn.dk.mysql', 'emmahn_dk', '3QtACGAfPK5gZNJSwMmH3UJD', 'emmahn_dk');
 
 // signup query
 if (isset($_POST['navn'])) {

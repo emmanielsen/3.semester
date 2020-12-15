@@ -2,14 +2,6 @@
     include "server.php";
 ?>
 
-<style>
-   <?php include "css/anden.css"; ?> 
-</style>
-
-<script> 
-    <?php include "index.js"; ?>
-</script>
-
 <!DOCTYPE html>
 <html lang="da">
     <head>
@@ -22,7 +14,6 @@
         <meta name="description" content="Taffelvognen er en hyggelig foodtruck med en bred menu bestående
         af økologiske råvarer bragt fra lokal catering. Perfekt til dig der ønsker nem mad og et festligt indslag
         til dit arrangement. Lej Taffelvognen her."/>
-        <script src="index.js" defer></script>
         <title> Godkendt </title>
     </head>
 <body>
@@ -80,5 +71,7 @@
     </div>
 
   </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>
