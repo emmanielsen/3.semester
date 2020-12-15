@@ -202,10 +202,10 @@ html {
 
 .flaesk {
   position: absolute;
-  font-size: 280%;
+  font-size: 200%;
   color: black ;
   margin-top: 45%;
-  margin-left:12.5%;
+  margin-left:10%;
   z-index: 2;
 }
 
