@@ -2,19 +2,12 @@
     include "server.php";
 ?>
 
-<style>
-   <?php include "css/anden.css"; ?>
-</style>
-
-<script>
-    <?php include "index.js"; ?>
-</script>
-
 <!DOCTYPE html>
 <html lang="da">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/anden.css" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playball&display=swap" rel="stylesheet">
         <title> Bestil her</title>
     </head>
@@ -94,7 +87,7 @@
         <img alt="facebook logo" src="img/fblogo.png">
     </a>
 
-      <a href="https://www.instagram.com/taffelvognen/">
+      <a href="https://www.instagram.com/taffel_vognen/">
         <img alt="instagram logo" src="img/iglogo.jpg">
     </a>
         </div>
@@ -104,5 +97,7 @@
     </div>
 
   </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>

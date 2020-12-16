@@ -1,7 +1,6 @@
 <?php
 $db = mysqli_connect('emmahn.dk.mysql', 'emmahn_dk', '3QtACGAfPK5gZNJSwMmH3UJD', 'emmahn_dk');
 
-// signup query
 if (isset($_POST['navn'])) {
    $navn = mysqli_real_escape_string($db, $_POST['navn']);
    $email    = mysqli_real_escape_string($db, $_POST['email']);
@@ -17,8 +16,6 @@ if (isset($_POST['navn'])) {
   $query = "INSERT INTO booking_system (navn,email,adresse,postnr,dato,antal_timer,menu,antal,kommentar) 
   VALUES('$navn','$email','$adresse','$postnr','$dato','$antal_timer','$menu','$antal','$kommentar')";
   $db->query($query);
-  //echo $query; 
-  //exit; 
 }
 
 ?>
