@@ -42,17 +42,35 @@
 
     <div class="container">
         <div class="inserts">
+            <h1 class="bestil"> Personlinge oplysninger </h1>
+            <form action="" method="post">
+                <input type="email" name="mail" placeholder="Email" required=""> <br>
+                <input type="text" name="firstname" placeholder="Fornavn" required=""> <br>
+                <input type="text" name="lastname" placeholder="Efternavn" required=""> <br>
+                <input type="text" name="streetname" placeholder="Gadenavn" required=""> <br>
+                <input type="text" name="streetnr" placeholder="Gadenr." required=""> <br>
+                <input type="text" name="zip" placeholder="Postnr." required=""> <br>
+                <br>
+                <input type="submit" name="submit" value="Indsend">
+
+                
+            </form>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="inserts">
             <h1 class="bestil"> Bestil Her </h1>
-            <form action="godkendt.php" method="post">
-                <input type="text" name="navn" placeholder="Navn" required=""> <br>
-                <input type="email" name="email" placeholder="Email" required=""> <br>
-                <input type="text" name="adresse" placeholder="Adresse" required=""> <br>
-                <input type="text" name="postnr" placeholder="Postnr." required=""> <br>
-                <input type="date" name="dato" placeholder="Dato for udlejning" required=""> <br>
-                <input type="text" name="antal_timer" placeholder="Antal timer" required=""> <br>
-                <input type="text" name="menu" placeholder="Valg af menu" required=""> <br>
-                <input type="text" name="antal" placeholder="Antal gæster" required=""> <br>
-                <input type="text" name="kommentar" placeholder="Kommentar" required=""> <br>
+            <form action="" method="post">
+                <input type="text" name="bookingnr" placeholder="Bookingnr" required=""> <br>
+                <input type="text" name="menuid" placeholder="Menuid" required=""> <br>
+                <input type="text" name="guests" placeholder="Hvor mange gæster" required=""> <br>
+                <input type="text" name="date" placeholder="Dato" required=""> <br>
+                <input type="text" name="time" placeholder="Tidsrum fra og til" required=""> <br>
+                <input type="text" name="comment" placeholder="Kommentar" required=""> <br>
+                <input type="text" name="menuid" placeholder="Menuid" required=""> <br>
+                <input type="text" name="menuname" placeholder="Menu" required=""> <br>
                 <br>
 
                 <label class="nyhed">Privat 
