@@ -35,7 +35,7 @@ if (isset($_POST['booking'])) {
 }
 
 
-// entitet booking 
+// entitet menu
 if (isset($_POST['menu'])) {
   $menuid = mysqli_real_escape_string($db, $_POST['menuid']);
   $menuname    = mysqli_real_escape_string($db, $_POST['menuname']);
@@ -46,7 +46,7 @@ if (isset($_POST['menu'])) {
  $db->query($query);
 }
 
-// entitet booking 
+// entitet city 
 if (isset($_POST['city'])) {
   $zip = mysqli_real_escape_string($db, $_POST['zip']);
   $city    = mysqli_real_escape_string($db, $_POST['city']);
