@@ -63,14 +63,11 @@
         <div class="inserts">
             <h1 class="bestil"> Bestil Her </h1>
             <form action="" method="post">
-                <input type="text" name="bookingnr" placeholder="Bookingnr" required=""> <br>
                 <input type="text" name="menuid" placeholder="Menuid" required=""> <br>
                 <input type="text" name="guests" placeholder="Hvor mange gæster" required=""> <br>
                 <input type="text" name="date" placeholder="Dato" required=""> <br>
                 <input type="text" name="time" placeholder="Tidsrum fra og til" required=""> <br>
                 <input type="text" name="comment" placeholder="Kommentar" required=""> <br>
-                <input type="text" name="menuid" placeholder="Menuid" required=""> <br>
-                <input type="text" name="menuname" placeholder="Menu" required=""> <br>
                 <br>
 
                 <label class="nyhed">Privat 

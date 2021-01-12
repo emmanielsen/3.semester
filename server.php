@@ -1,7 +1,19 @@
 <?php
-$db = mysqli_connect('localhost', 'newbooking', 'root', 'root');
 // ('host', 'database', 'password', 'user'); 
 // publichost: 'emmahn.dk.mysql', 'emmahn_dk', '3QtACGAfPK5gZNJSwMmH3UJD', 'emmahn_dk' 
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$database = "newbooking";
+
+// Create connection
+$db = new mysqli($servername, $username, $password, $database);
+
+// Check connection
+if ($db->connect_error) {
+  die("Connection failed: " . $db->connect_error);
+}
+// echo "Connected successfully";
 
 // entitet costumer
 if (isset($_POST['customer'])) {
@@ -13,7 +25,7 @@ if (isset($_POST['customer'])) {
    $zip    = mysqli_real_escape_string($db, $_POST['zip']);
 
 // query til at gemme det i databasen 
-  $query = "INSERT INTO costumer (mail,firstname,lastname,streetname,streetnr,zip) 
+  $query = "INSERT INTO customer (mail,firstname,lastname,streetname,streetnr,zip) 
   VALUES('$mail','$firstname','$lastname','$streetname','$streetnr','$zip')";
   $db->query($query);
 }
@@ -29,8 +41,8 @@ if (isset($_POST['booking'])) {
   $comment  = mysqli_real_escape_string($db, $_POST['comment']);
 
 // query til at gemme det i databasen 
- $query = "INSERT INTO booking (bookingnr,menuid,guests,mail,date,time,comment) 
- VALUES('$bookingnr','$menuid','$guests','$mail','$date','$time','comment')";
+ $query = "INSERT INTO booking (bookingnr, menuid, guests, mail, date, time, comment) 
+ VALUES('$bookingnr','$menuid','$guests','$mail','$date','$time','$comment')";
  $db->query($query);
 }
 
@@ -41,7 +53,7 @@ if (isset($_POST['menu'])) {
   $menuname    = mysqli_real_escape_string($db, $_POST['menuname']);
 
 // query til at gemme det i databasen 
- $query = "INSERT INTO menu (menuid,menuname) 
+ $query = "INSERT INTO menu (menuid, menuname) 
  VALUES('$menuid','$menuname')";
  $db->query($query);
 }
@@ -52,7 +64,7 @@ if (isset($_POST['city'])) {
   $city    = mysqli_real_escape_string($db, $_POST['city']);
 
 // query til at gemme det i databasen 
- $query = "INSERT INTO city (zip,city) 
+ $query = "INSERT INTO city (zip, city) 
  VALUES('$zip','$city')";
  $db->query($query);
 }
