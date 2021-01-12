@@ -43,7 +43,7 @@
     <div class="container">
         <div class="inserts">
             <h1 class="bestil"> Personlinge oplysninger </h1>
-            <form action="" method="post">
+            <form action="" method="">
                 <input type="email" name="mail" placeholder="Email" required=""> <br>
                 <input type="text" name="firstname" placeholder="Fornavn" required=""> <br>
                 <input type="text" name="lastname" placeholder="Efternavn" required=""> <br>
@@ -62,7 +62,7 @@
     <div class="container">
         <div class="inserts">
             <h1 class="bestil"> Bestil Her </h1>
-            <form action="" method="post">
+            <form action="" method="get">
                 <input type="text" name="menuid" placeholder="Menuid" required=""> <br>
                 <input type="text" name="guests" placeholder="Hvor mange gæster" required=""> <br>
                 <input type="text" name="date" placeholder="Dato" required=""> <br>
