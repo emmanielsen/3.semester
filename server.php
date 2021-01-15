@@ -1,5 +1,4 @@
 <?php
-// publichost: 'emmahn.dk.mysql', 'emmahn_dk', '3QtACGAfPK5gZNJSwMmH3UJD', 'emmahn_dk' 
 $servername = "localhost";
 $username = "root";
 $password = "root";
